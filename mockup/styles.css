@@ -1,0 +1,112 @@
+div {
+  /*outline: white dashed thin;*/
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+#body {
+  height: 800px;
+  width: 480px;
+  background-color: black;
+  color: white;
+  font-family: Arial
+}
+
+#tabs {
+  padding: 0px 25px;
+  width: 430px;
+  height: 60px;
+}
+
+.tab-header {
+  float: left;
+  width: auto;
+  height: 60px;
+  /*margin-right: 50px;*/
+  padding: 0px 25px;
+  line-height: 60px;
+}
+
+.tab-header:hover {
+  color: black;
+  background-color: white;
+  cursor: default;
+}
+
+#tab-content {
+  padding: 0px 25px;
+  width: 430px;
+  height: 740px;
+}
+
+a.div_link {
+  text-decoration: none;
+}
+
+#tags {
+  float: left;
+  margin: 10px 0px;
+  width: 405px;
+  height: auto;
+}
+
+.tag {
+  background-color: red;
+  color: white;
+  margin: 5px;
+  padding: 1px 5px;
+  float: left;
+  min-width: 10px;
+  height: 18px;
+  border-radius: 10px;
+  line-height: 18px;
+}
+
+.tag:hover {
+  color: black;
+  background-color: yellow;
+  cursor: default;
+}
+
+#tag_filter_form {
+  float: left;
+  width: 430px;
+  height: auto;
+}
+
+#tag_filter {
+  font-size: 1em;
+  color: black;
+  padding: 2px 0px;
+  width: 380px;
+  height: 26px;
+  background-color: lightgray;
+  border: None;
+}
+
+#todo_table {
+  width: 430px;
+  height: auto;
+  float: left;
+}
+
+.todo_table-row {
+  float: left;
+}
+
+.todo_table-left {
+  float: left;
+  width: 330px;
+}
+
+.todo_table-right {
+  float: right;
+  width: 100px;
+}
+
+h2.todo_legend {
+  font-weight: bold;
+  text-decoration: underline;
+}
