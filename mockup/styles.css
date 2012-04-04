@@ -48,7 +48,7 @@ a.div_link {
 #tags {
   float: left;
   margin: 10px 0px;
-  width: 405px;
+  width: 430px;
   height: auto;
 }
 
@@ -97,32 +97,32 @@ a.div_link {
 .todo_table-row1 {
   float: left;
   background-color: #3F3F3F;
-  padding: 5px 2px;
-  width: 420px;
+  padding: 3px 10px;
+  width: 410px;
 }
 
 .todo_table-row2 {
   float: left;
   background-color: #5F5F5F;
-  padding: 5px 2px;
-  width: 420px;
+  padding: 3px 10px;
+  width: 410px;
 }
 
 .todo_table-legend {
   float: left;
-  margin-bottom: 10px;
   font-size: 22px;
   font-weight: bold;
+  padding: 5px 10px;
+  width: 410px;
 }
 
 .todo_table-left {
   float: left;
-  width: 330px;
+  width: 320px;
 }
 
 .todo_table-right {
   float: right;
-  /*width: 100px;*/
 }
 
 h2.todo_legend {
