@@ -95,7 +95,7 @@ h1, h2 {
   float: left;
   background-color: #3F3F3F;
   padding: 3px 10px;
-  width: 410px;
+  width: 408px;
 }
 
 .todo_table-row1:hover {
@@ -103,7 +103,7 @@ h1, h2 {
   float: left;
   background-color: #4F4F4F;
   padding: 3px 10px;
-  width: 410px;
+  width: 408px;
   outline: white thin dashed;
   cursor: pointer;
 }
@@ -113,7 +113,7 @@ h1, h2 {
   float: left;
   background-color: #5F5F5F;
   padding: 3px 10px;
-  width: 410px;
+  width: 408px;
 }
 
 .todo_table-row2:hover {
@@ -121,17 +121,18 @@ h1, h2 {
   float: left;
   background-color: #6F6F6F;
   padding: 3px 10px;
-  width: 410px;
+  width: 408px;
   outline: white thin dashed;
   cursor: pointer;
 }
 
 .todo_table-legend {
+  margin: 1px;
   float: left;
   font-size: 22px;
   font-weight: bold;
   padding: 5px 10px;
-  width: 410px;
+  width: 408px;
 }
 
 .todo_table-left {
