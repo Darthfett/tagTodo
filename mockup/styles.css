@@ -32,17 +32,13 @@ h1, h2 {
 .tab-header:hover {
   color: black;
   background-color: white;
-  cursor: default;
+  cursor: pointer;
 }
 
 #tab-content {
   padding: 0px 25px;
   width: 430px;
   height: 740px;
-}
-
-a.div_link {
-  text-decoration: none;
 }
 
 #tags {
@@ -67,7 +63,7 @@ a.div_link {
 .tag:hover {
   color: black;
   background-color: yellow;
-  cursor: default;
+  cursor: pointer;
 }
 
 #tag_filter_form {
@@ -95,17 +91,39 @@ a.div_link {
 }
 
 .todo_table-row1 {
+  margin: 1px;
   float: left;
   background-color: #3F3F3F;
   padding: 3px 10px;
   width: 410px;
 }
 
+.todo_table-row1:hover {
+  margin: 1px;
+  float: left;
+  background-color: #4F4F4F;
+  padding: 3px 10px;
+  width: 410px;
+  outline: white thin dashed;
+  cursor: pointer;
+}
+
 .todo_table-row2 {
+  margin: 1px;
   float: left;
   background-color: #5F5F5F;
   padding: 3px 10px;
   width: 410px;
+}
+
+.todo_table-row2:hover {
+  margin: 1px;
+  float: left;
+  background-color: #6F6F6F;
+  padding: 3px 10px;
+  width: 410px;
+  outline: white thin dashed;
+  cursor: pointer;
 }
 
 .todo_table-legend {
@@ -128,4 +146,8 @@ a.div_link {
 h2.todo_legend {
   font-weight: bold;
   text-decoration: underline;
+}
+
+.sortable:hover {
+  cursor: pointer;
 }
