@@ -126,6 +126,31 @@ h1, h2 {
   cursor: pointer;
 }
 
+.todo_table-row_last {
+  margin: 1px;
+  float: left;
+  color: black;
+  background-color: #3F3F3F;
+  /*background-color: red;*/
+  padding: 3px 10px;
+  width: 408px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.todo_table-row_last:hover {
+  margin: 1px;
+  float: left;
+  color: black;
+  background-color: #7F7F7F;
+  /*background-color: yellow;*/
+  padding: 3px 10px;
+  width: 408px;
+  cursor: pointer;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .todo_table-legend {
   margin: 1px;
   float: left;
