@@ -2,7 +2,7 @@ div {
   /*outline: white dashed thin;*/
 }
 
-h1, h2 {
+h1, h2, h3 {
     margin: 0px;
 }
 
@@ -35,15 +35,17 @@ h1, h2 {
   cursor: pointer;
 }
 
-#tab-content {
-  padding: 0px 25px;
+.section {
+  float: left;
+  padding: 10px 25px 0px;
   width: 430px;
-  height: 740px;
+  height: auto;
 }
 
 #tags {
   float: left;
-  margin: 10px 0px;
+  padding-bottom: 10px;
+  /*margin: 10px 0px;*/
   width: 430px;
   height: auto;
 }
@@ -70,17 +72,28 @@ h1, h2 {
   float: left;
   width: 430px;
   height: auto;
-  margin-top: 10px;
+}
+
+.w7_input {
+  background-color: lightgray;
+  border: None;
+  font-size: 1em;
+  color: black;
+  font-family: Arial;
+}
+
+.w7_input:focus {
+  background-color: white;
+  border: None;
+  font-size: 1em;
+  color: black;
+  font-family: Arial;
 }
 
 #tag_filter {
-  font-size: 1em;
-  color: black;
   padding: 2px 0px;
   width: 380px;
   height: 35px;
-  background-color: lightgray;
-  border: None;
 }
 
 #todo_table {
@@ -156,7 +169,7 @@ h1, h2 {
   float: left;
   font-size: 22px;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 0px 10px 5px;
   width: 408px;
 }
 
@@ -176,4 +189,30 @@ h2.todo_legend {
 
 .sortable:hover {
   cursor: pointer;
+}
+
+.todo_date-time {
+  float: left;
+  width: 215px;
+}
+
+#todo_name_form {
+  width: 430px;
+}
+
+#todo_loc_form {
+  width: 430px;
+}
+
+#todo_start_time_form {
+  width: 200px;
+}
+
+#todo_end_time_form {
+  width: 215px;
+}
+
+#todo_desc_form {
+  height: 87px;
+  width: 430px;
 }
