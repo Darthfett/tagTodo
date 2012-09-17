@@ -243,3 +243,54 @@ h2.todo_legend {
   height: 87px;
   width: 430px;
 }
+
+#tag_list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.tag_list_item {
+  background-color: #3F3F3F;
+  padding: 5px 5px;
+}
+
+.tag_list_item:hover {
+  background-color: #4F4F4F;
+  cursor: pointer;
+}
+
+.tag_list_item-first {
+  background-color: #3F3F3F;
+  padding: 0px 35px;
+  width: auto; /* 430px; */
+  height: 40px;
+  line-height: 40px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 1px;
+}
+
+.tag_list_item-last {
+  background-color: #3F3F3F;
+  padding: 0px 35px;
+  float: left;
+  width: 360px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.tag_list_item-last:hover {
+  background-color: #4F4F4F;
+  cursor: pointer;
+  padding: 0x 35px;
+  float: left;
+  width: 360px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
