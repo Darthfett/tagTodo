@@ -1,7 +1,5 @@
-# Todo Tree Tags #
+# tagTodo #
 
 ## About ##
 
-Todo Tree Tags is a todo list manager.  It allows you to create a hierarchy of tags to more easily manage a todo list.  You can filter tags and text to see only relevant todos items.
- 
-Initially, Todo Tree Tags will be a native Windows 7 Phone application.  When the project matures more, it will eventually be moved to a webservice, so that todo items can be synced across multiple devices.
+tagTodo is a todo list manager.  Unlike a traditional To Do list, it manages todo lists in a more organized way, allowing you to tag items with tags that give you meta information about an item.  This is an attempt to be a more logical way to organize your todo lists, allowing you to look only at only the relevant portion of your todo list (e.g. "Work", and due in 5 hours).
