@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <title>To-Do</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body id="todo_page">
+    <div id="header">
+      <ul id="navmenu">
+        <li id="todo_menuitem">To-Do</li>
+        <a href="tags.html"><li id="tags_menuitem">Tags</li></a>
+      </ul>
+    </div>
+
+    <div id="tag_filter_section">
+      <h2>Tag Filter</h2>
+      <ul id="filter_taglist">
+        <!-- JS filled in data !-->
+        <li>Work</li>
+        <li>Project A</li>
+        <li>Due: Today</li>
+        <!-- End JS filled in data !-->
+        <li id="taglist_append"><a href="addtag.html">+</a></li>
+      </ul>
+      <form id="taglist_search">
+        <input id="taglist_searchbox" type="text"
+               placeholder="Filter by text or search for a tag"/>
+      </form>
+    </div>
+    <div id="todoitem_list">
+      <h2>To-Do Items</h2>
+      <table id="todoitem_table">
+        <tr id="todoitem_table_header_row">
+          <th id="todoitem_title">Title</th>
+          <th id="todoitem_date">Date</th>
+        </tr>
+        <!-- JS filled in data !-->
+        <tr>
+          <td>Overall</td>
+          <td>Today</td>
+        </tr>
+        <tr>
+          <td>Milestone 1</td>
+          <td>Noon</td>
+        </tr>
+        <tr>
+          <td>Milestone 2</td>
+          <td>2 PM</td>
+        </tr>
+        <!-- End JS filled in data !-->
+        <tr id="todoitem_table_append_row">
+          <th id="todoitem_table_append" colspan="2">
+            <a href="newtodo.html">+</a>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
