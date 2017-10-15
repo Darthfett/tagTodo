@@ -4,42 +4,40 @@
 
 html {
   border: none;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   border: none;
-  margin: 0px;
-  padding: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  
+  padding: 0;
+  margin: 0 auto;
+
   background-color: black;
   color: white;
-  font-family: Arial;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-  margin: 0px;
+  margin: 0;
   font-size: 32px;
   font-weight: bold;
 }
 
 h2 {
-  margin: 0px;
+  margin: 0;
   font-size: 24px;
   font-weight: bold;
 }
 
 h3 {
-  margin: 0px;
+  margin: 0;
   font-size: 18px;
   font-weight: normal;
 }
 
 ul {
-  margin: 0px;
+  margin: 0;
 }
 
 a {
@@ -60,16 +58,18 @@ a {
 
 #navmenu li {
   float: left;
-  border: none;
-  padding: 15px 35px;
-  border-style: solid;
-  border-color: #0f0f0f;
-  border-width: 1px;
+  border: 1px solid #0f0f0f;
 }
 
 #navmenu li:hover {
   background-color: white;
   color: black;
+}
+
+#navmenu a {
+  display:inline-block;
+  padding: 15px 35px;
+
 }
 
 /****************
@@ -98,7 +98,7 @@ a {
 
 #taglist_search {
   border: none;
-  margin: 10px 0px;
+  margin: 10px 0;
   float: left;
   clear: both;
 }
@@ -110,9 +110,7 @@ a {
 #todo_page #todo_menuitem {
   background-color: black;
   color: white;
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
+  border: 1px solid black;
 }
 
 /****************
